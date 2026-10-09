@@ -6,4 +6,9 @@
     <string name="copy">Copyright, 2026</string>
     <string name="logo_desc">Logo UMY</string>
     <string name="card_list_title">Daftar Kartu Mahasiswa</string>
+
+    <!-- Data Card Mahasiswa 1 -->
+    <string name="nama_1">Muhammad Zaki Andika</string>
+    <string name="nim_1">20240140048</string>
+    <string name="alamat_1">Pulosari, Brebes</string>
 </resources>
