@@ -122,3 +122,14 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             color = colorResource(R.color.black)
         )
         Spacer(modifier = Modifier.height(24.dp))
+
+        // Card 1
+        CardWidget(
+            namaRes = R.string.nama_1,
+            nimRes = R.string.nim_1,
+            alamatRes = R.string.alamat_1,
+            bgColorRes = R.color.card_1_bg,
+            isCursive = true,
+            alamatColorRes = R.color.yellow
+        )
+}
