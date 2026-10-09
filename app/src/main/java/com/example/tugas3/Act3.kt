@@ -96,4 +96,29 @@ fun CardWidget(
         }
     }
 }
-}
+
+/**
+ * Layout utama AktivitasPertama menyusun header prodi dan ke-4 CardWidget.
+ */
+@Composable
+fun AktivitasPertama(modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(top = 40.dp, bottom = 20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = stringResource(R.string.prodi),
+            fontSize = 28.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(R.color.black)
+        )
+        Spacer(modifier = Modifier.height(4.dp))
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = 16.sp,
+            fontWeight = FontWeight.Bold,
+            color = colorResource(R.color.black)
+        )
+        Spacer(modifier = Modifier.height(24.dp))
