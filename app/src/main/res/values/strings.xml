@@ -1,0 +1,7 @@
+<resources>
+    <!-- Header Aplikasi -->
+    <string name="app_name">Tugas 3</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copy">Copyright, 2026</string>
+</resources>
