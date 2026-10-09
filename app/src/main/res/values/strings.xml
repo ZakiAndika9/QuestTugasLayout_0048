@@ -4,4 +4,6 @@
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
+    <string name="logo_desc">Logo UMY</string>
+    <string name="card_list_title">Daftar Kartu Mahasiswa</string>
 </resources>
