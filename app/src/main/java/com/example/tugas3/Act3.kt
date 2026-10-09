@@ -173,3 +173,12 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
         )
     }
 }
+
+// Preview Composable untuk tampilan Android Studio IDE
+@Preview(showBackground = true)
+@Composable
+fun AktivitasPertamaPreview() {
+    Tugas3Theme {
+        AktivitasPertama()
+    }
+}
