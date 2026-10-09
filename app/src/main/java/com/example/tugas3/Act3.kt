@@ -152,3 +152,13 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             isCursive = true,
             alamatColorRes = R.color.yellow
         )
+
+        // Card 4
+        CardWidget(
+            namaRes = R.string.nama_4,
+            nimRes = R.string.nim_4,
+            alamatRes = R.string.alamat_4,
+            bgColorRes = R.color.card_4_bg,
+            isCursive = true,
+            alamatColorRes = R.color.yellow
+        )
