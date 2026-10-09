@@ -162,3 +162,14 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             isCursive = true,
             alamatColorRes = R.color.yellow
         )
+
+        Spacer(modifier = Modifier.weight(1f))
+
+        Text(
+            text = stringResource(R.string.copy),
+            fontSize = 14.sp,
+            color = colorResource(R.color.black),
+            modifier = Modifier.padding(bottom = 16.dp)
+        )
+    }
+}
