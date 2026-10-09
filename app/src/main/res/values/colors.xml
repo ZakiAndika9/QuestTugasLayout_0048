@@ -12,4 +12,10 @@
     <!-- Warna Aksen Komponen -->
     <color name="yellow">#FFFF00</color>
     <color name="cyan">#00E5FF</color>
+
+    <!-- Warna Background Card Mahasiswa -->
+    <color name="card_1_bg">#555555</color>
+    <color name="card_2_bg">#7B52D2</color>
+    <color name="card_3_bg">#0000FF</color>
+    <color name="card_4_bg">#006400</color>
 </resources>
