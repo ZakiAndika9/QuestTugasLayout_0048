@@ -50,3 +50,50 @@ fun CardWidget(
             containerColor = colorResource(bgColorRes)
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_desc),
+                modifier = Modifier.size(70.dp)
+            )
+            Spacer(modifier = Modifier.width(16.dp))
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = stringResource(namaRes),
+                    fontSize = 22.sp,
+                    fontWeight = if (isCursive) FontWeight.Normal else FontWeight.Bold,
+                    fontFamily = if (isCursive) FontFamily.Cursive else FontFamily.Default,
+                    color = colorResource(R.color.white)
+                )
+                if (nimRes != null) {
+                    Spacer(modifier = Modifier.height(2.dp))
+                    Text(
+                        text = stringResource(nimRes),
+                        fontSize = 15.sp,
+                        color = colorResource(R.color.cyan)
+                    )
+                }
+                Spacer(modifier = Modifier.height(2.dp))
+                Text(
+                    text = stringResource(alamatRes),
+                    fontSize = 15.sp,
+                    color = colorResource(alamatColorRes)
+                )
+            }
+            Spacer(modifier = Modifier.width(16.dp))
+            Image(
+                painter = painterResource(R.drawable.logo_umy),
+                contentDescription = stringResource(R.string.logo_desc),
+                modifier = Modifier.size(70.dp)
+            )
+        }
+    }
+}
+}
