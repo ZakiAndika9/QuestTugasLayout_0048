@@ -11,4 +11,9 @@
     <string name="nama_1">Muhammad Zaki Andika</string>
     <string name="nim_1">20240140048</string>
     <string name="alamat_1">Pulosari, Brebes</string>
+
+    <!-- Data Card Mahasiswa 2 -->
+    <string name="nama_2">Khoirul Arif Pratama</string>
+    <string name="nim_2">20240140011</string>
+    <string name="alamat_2">Cilacap, majenang</string>
 </resources>
