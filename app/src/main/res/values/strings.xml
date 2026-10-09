@@ -16,4 +16,14 @@
     <string name="nama_2">Khoirul Arif Pratama</string>
     <string name="nim_2">20240140011</string>
     <string name="alamat_2">Cilacap, majenang</string>
+
+    <!-- Data Card Mahasiswa 3 -->
+    <string name="nama_3">Rafii Arif Nugroho</string>
+    <string name="nim_3">20240140007</string>
+    <string name="alamat_3">Kasihan, Bantul</string>
+
+    <!-- Data Card Mahasiswa 4 -->
+    <string name="nama_4">Ahmad Naufal Ramadhan</string>
+    <string name="nim_4">20240140028</string>
+    <string name="alamat_4">Pemalang, pemalang</string>
 </resources>
